@@ -38,7 +38,7 @@ colors.diff_text_bg = "#353b45"
 
 colors.active = "#252931"
 colors.float = "#282c34"
-colors.highlight = "#252931"
+colors.highlight = "#353b45"
 colors.highlight_dark = "#282c34"
 colors.selection = "#353b45"
 

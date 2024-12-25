@@ -759,11 +759,11 @@ function theme.highlights(colors, config)
       NeoTreeCursorLine = { link = "Visual" },
 
       -- WhichKey
-      WhichKey = { fg = colors.purple, style = "bold" },
+      WhichKey = { bg = colors.highlight_dark, fg = colors.purple, style = "bold" },
       WhichKeyGroup = { fg = colors.cyan },
       WhichKeyDesc = { fg = colors.blue, style = "italic" },
       WhichKeySeperator = { fg = colors.green },
-      WhichKeyFloat = { bg = colors.highlight },
+      WhichKeyFloat = { bg = colors.highlight_dark },
 
       -- LspSaga
       TitleString = { fg = colors.fg },

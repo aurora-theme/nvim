@@ -36,7 +36,7 @@ colors.diff_remove = colors.red
 colors.diff_remove_bg = "#4D2B2E"
 colors.diff_text_bg = "#353b45"
 
-colors.active = "#252931"
+colors.active = "#282c34"
 colors.float = "#282c34"
 colors.highlight = "#353b45"
 colors.highlight_dark = "#282c34"

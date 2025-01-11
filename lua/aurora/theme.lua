@@ -758,11 +758,11 @@ function theme.highlights(colors, config)
       NeoTreeSymbolicLinkTarget = { fg = colors.cyan, style = "bold" },
       NeoTreeCursorLine = { link = "Visual" },
 
-      -- Mini Status Line
-      MiniStatuslineDevinfo = { fg = colors.highlight, bg = colors.active },
-      MiniStatuslineFileinfo = { fg = colors.highlight, bg = colors.bg },
-      MiniStatuslineFilename = { fg = colors.highlight, bg = colors.active },
-      MiniStatuslineInactive = { fg = colors.light_gray, bg = colors.float },
+      -- Mini Statusline
+      MiniStatuslineDevinfo = { fg = colors.fg_light, bg = colors.active },
+      MiniStatuslineFileinfo = { fg = colors.fg_light, bg = colors.bg },
+      MiniStatuslineFilename = { fg = colors.fg_light, bg = colors.active },
+      MiniStatuslineInactive = { fg = colors.fg_light, bg = colors.float },
       MiniStatuslineModeCommand = { fg = colors.fg_light, bg = colors.yellow, style = { "bold" } },
       MiniStatuslineModeInsert = { fg = colors.fg_light, bg = colors.green, style = { "bold" } },
       MiniStatuslineModeNormal = { fg = colors.fg_light, bg = colors.blue, style = { "bold" } },

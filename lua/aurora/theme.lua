@@ -771,12 +771,12 @@ function theme.highlights(colors, config)
       MiniStatuslineModeVisual = { fg = colors.highlight, bg = colors.purple, style = "bold" },
 
       -- WhichKey
-      WhichKey = { bg = colors.highlight_dark, fg = colors.purple, style = "bold" },
+      WhichKey = { bg = colors.highlight, fg = colors.purple, style = "bold" },
       WhichKeyGroup = { fg = colors.cyan },
       WhichKeyDesc = { fg = colors.blue, style = "italic" },
       WhichKeySeperator = { fg = colors.green },
       WhichKeyBorder = { fg = colors.light_gray },
-      WhichKeyNormal = { bg = colors.highlight_dark },
+      WhichKeyNormal = { bg = colors.highlight },
 
       -- LspSaga
       TitleString = { fg = colors.fg },

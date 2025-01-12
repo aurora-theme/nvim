@@ -759,7 +759,7 @@ function theme.highlights(colors, config)
       NeoTreeCursorLine = { link = "Visual" },
 
       -- Mini Statusline
-      MiniStatuslineDevinfo = { fg = colors.fg_light, bg = colors.highlight },
+      MiniStatuslineDevinfo = { fg = colors.fg_light, bg = colors.active },
       MiniStatuslineFileinfo = { fg = colors.fg_light, bg = colors.bg },
       MiniStatuslineFilename = { fg = colors.fg_light, bg = colors.highlight },
       MiniStatuslineInactive = { fg = colors.highlight, bg = colors.float },

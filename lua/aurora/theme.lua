@@ -759,16 +759,16 @@ function theme.highlights(colors, config)
       NeoTreeCursorLine = { link = "Visual" },
 
       -- Mini Statusline
-      MiniStatuslineDevinfo = { fg = colors.fg_light, bg = colors.active },
+      MiniStatuslineDevinfo = { fg = colors.fg_light, bg = colors.highlight },
       MiniStatuslineFileinfo = { fg = colors.fg_light, bg = colors.bg },
-      MiniStatuslineFilename = { fg = colors.fg_light, bg = colors.active },
+      MiniStatuslineFilename = { fg = colors.fg_light, bg = colors.highlight },
       MiniStatuslineInactive = { fg = colors.fg_light, bg = colors.float },
-      MiniStatuslineModeCommand = { fg = colors.fg_light, bg = colors.yellow, style = { "bold" } },
-      MiniStatuslineModeInsert = { fg = colors.fg_light, bg = colors.green, style = { "bold" } },
-      MiniStatuslineModeNormal = { fg = colors.fg_light, bg = colors.blue, style = { "bold" } },
-      MiniStatuslineModeOther = { fg = colors.fg_light, bg = colors.light_green, style = { "bold" } },
-      MiniStatuslineModeReplace = { fg = colors.fg_light, bg = colors.red, style = { "bold" } },
-      MiniStatuslineModeVisual = { fg = colors.fg_light, bg = colors.purple, style = { "bold" } },
+      MiniStatuslineModeCommand = { fg = colors.fg_light, bg = colors.yellow, style = "bold" },
+      MiniStatuslineModeInsert = { fg = colors.fg_light, bg = colors.green, style = "bold" },
+      MiniStatuslineModeNormal = { fg = colors.fg_light, bg = colors.cyan, style = "bold" },
+      MiniStatuslineModeOther = { fg = colors.fg_light, bg = colors.light_green, style = "bold" },
+      MiniStatuslineModeReplace = { fg = colors.fg_light, bg = colors.red, style = "bold" },
+      MiniStatuslineModeVisual = { fg = colors.fg_light, bg = colors.purple, style = "bold" },
 
       -- WhichKey
       WhichKey = { bg = colors.highlight_dark, fg = colors.purple, style = "bold" },

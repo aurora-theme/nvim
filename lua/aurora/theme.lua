@@ -895,11 +895,11 @@ function theme.highlights(colors, config)
       FernBranchText = { fg = colors.blue },
 
       -- Lightspeed
-      LightspeedLabel = { fg = colors.pink, style = "bold,underline" },
-      LightspeedLabelOverlapped = { fg = colors.dark_pink, style = "underline" },
+      LightspeedLabel = { fg = colors.purple, style = "bold,underline" },
+      LightspeedLabelOverlapped = { fg = colors.dark_purple, style = "underline" },
       LightspeedLabelDistant = { fg = colors.cyan, style = "bold,underline" },
       LightspeedLabelDistantOverlapped = { fg = colors.blue, style = "underline" },
-      LightspeedShortcut = { fg = "#E5E9F0", bg = colors.pink, style = "bold,underline" },
+      LightspeedShortcut = { fg = "#E5E9F0", bg = colors.purple, style = "bold,underline" },
       LightspeedMaskedChar = { fg = colors.light_purple },
       LightspeedGreyWash = { fg = colors.gray },
       LightspeedUnlabeledMatch = { fg = colors.fg_light, style = "bold" },

@@ -1,7 +1,7 @@
--- Colorscheme name:        aurora.nvim
+-- Colorscheme name:        aurora
 -- Description:             A Neovim theme that using Nord aurora colors pallete
 -- Author:                  Karyana Yandi
--- Website:                 https://github.com/karyanayandi/aurora.nvim
+-- Website:                 https://github.com/aurora-theme/nvim
 
 local config = require("aurora.config")
 local util = require("aurora.util")

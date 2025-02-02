@@ -2,7 +2,7 @@
 
 ## Installation
 
-To install aurora.nvim using `lazy.nvim`, add the following to your plugin configuration:
+To install aurora neovim theme using `lazy.nvim`, add the following to your plugin configuration:
 
 ```lua
 {

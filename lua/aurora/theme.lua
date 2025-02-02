@@ -899,7 +899,7 @@ function theme.highlights(colors, config)
       LightspeedLabelOverlapped = { fg = colors.dark_purple, style = "underline" },
       LightspeedLabelDistant = { fg = colors.cyan, style = "bold,underline" },
       LightspeedLabelDistantOverlapped = { fg = colors.blue, style = "underline" },
-      LightspeedShortcut = { fg = "#E5E9F0", bg = colors.purple, style = "bold,underline" },
+      LightspeedShortcut = { fg = colors.fg_light, bg = colors.purple, style = "bold,underline" },
       LightspeedMaskedChar = { fg = colors.light_purple },
       LightspeedGreyWash = { fg = colors.gray },
       LightspeedUnlabeledMatch = { fg = colors.fg_light, style = "bold" },

@@ -22,7 +22,7 @@ local colors = {
 
 -- more semantically meaningful colors
 
-colors.error = colors.dark_red
+colors.error = colors.red
 colors.warn = colors.orange
 colors.info = colors.green
 colors.hint = colors.purple

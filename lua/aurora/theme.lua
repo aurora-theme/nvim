@@ -98,8 +98,8 @@ function theme.highlights(colors, config)
 
       markdownBlockquote = { fg = colors.light_gray },
       markdownBold = { fg = colors.purple, style = "bold" },
-      markdownCode = { fg = colors.green },
-      markdownCodeBlock = { fg = colors.green },
+      markdownCode = { fg = colors.green, bg = colors.highlight },
+      markdownCodeBlock = { fg = colors.green, bg = colors.highlight },
       markdownCodeDelimiter = { fg = colors.green },
       markdownH1 = { fg = colors.dark_blue, style = "bold" },
       markdownH2 = { fg = colors.blue, style = "bold" },

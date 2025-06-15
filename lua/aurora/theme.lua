@@ -777,6 +777,7 @@ function theme.highlights(colors, config)
       WhichKeySeperator = { fg = colors.green },
       WhichKeyBorder = { fg = colors.light_gray },
       WhichKeyNormal = { bg = colors.highlight },
+      WhichKeyFloat = { bg = colors.active },
 
       -- LspSaga
       TitleString = { fg = colors.fg },

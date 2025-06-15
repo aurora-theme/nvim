@@ -1,4 +1,4 @@
-local base_colors = require("aurora.colors.aurora")
+local colors = require("aurora.colors.aurora")
 local util = require("aurora.util")
 
 local function get_theme()
@@ -14,7 +14,7 @@ local function get_theme()
 end
 
 local function load()
-  return util.deep_extend_by_theme(base_colors, require("aurora.config").options.custom_colors)
+  return util.deep_extend_by_theme(colors, require("aurora.config").options.custom_colors)
 end
 
 return { get_theme = get_theme, load = load }

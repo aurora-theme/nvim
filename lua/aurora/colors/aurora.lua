@@ -35,10 +35,10 @@ colors.diff_remove = colors.red
 colors.diff_remove_bg = colors.dark_red
 colors.diff_text_bg = "#353b45"
 
-colors.active = colors.bg
-colors.float = colors.bg
 colors.highlight = "#353b45"
-colors.highlight_dark = colors.bg
+colors.active = colors.highlight
+colors.float = colors.bg
+colors.highlight_dark = "#252931"
 colors.selection = "#353b45"
 
 return colors

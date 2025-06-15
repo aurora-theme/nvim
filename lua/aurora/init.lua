@@ -14,6 +14,7 @@ function aurora.setup(options)
 end
 
 function aurora.load(exec_autocmd)
+  exec_autocmd = exec_autocmd == nil and true or exec_autocmd
   local colors = require("aurora.colors").load()
 
   util.load(colors, exec_autocmd)

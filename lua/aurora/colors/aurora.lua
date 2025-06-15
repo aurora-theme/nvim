@@ -30,15 +30,15 @@ colors.hint = colors.purple
 colors.diff_add = colors.green
 colors.diff_add_bg = colors.dark_green
 colors.diff_change = colors.dark_blue
-colors.diff_change_bg = "#353b45"
+colors.diff_change_bg = "#32363e"
 colors.diff_remove = colors.red
 colors.diff_remove_bg = colors.dark_red
-colors.diff_text_bg = "#353b45"
+colors.diff_text_bg = "#32363e"
 
-colors.highlight = "#353b45"
+colors.highlight = "#32363e"
 colors.highlight_dark = "#252931"
 colors.active = colors.highlight_dark
 colors.float = colors.bg
-colors.selection = "#353b45"
+colors.selection = "#32363e"
 
 return colors
